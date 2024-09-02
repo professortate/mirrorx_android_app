@@ -1,0 +1,26 @@
+name: mirroring_control_app
+description: A Flutter app to control Scrcpy mirroring from an Android device.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2 # Check for the latest version
+  cupertino_icons: ^1.0.2 # Check for the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # Updated to the latest version
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/moon.png
+    - assets/sun.png
+
+  # Optional: Add other assets or resources as needed
